@@ -4,6 +4,7 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 import Services from "./Services";
 import Contact from "./Contact";
+import profileImage1 from "../public/devi-about.jpeg";
 import profileImage from "../public/devi2.jpeg"; // Replace with your image path
 
 import {
@@ -227,7 +228,7 @@ const Home = () => {
     <div className="about-containerrr">
       {/* Left Image */}
       <div className="about-image">
-        <img src={profileImage} alt="Profile" />
+        <img src={profileImage1} alt="Profile" />
       </div>
 
       {/* Right Content */}
