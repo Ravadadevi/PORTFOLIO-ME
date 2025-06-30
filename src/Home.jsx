@@ -204,7 +204,7 @@ const Home = () => {
             </div>
             <div className="mainpage-right">
               <img
-                src="public/devi2.jpeg"
+                src={profileImage}
                 alt="profile"
                 className="profile-img"
               />
